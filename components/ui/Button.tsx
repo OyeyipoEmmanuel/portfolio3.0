@@ -8,9 +8,11 @@ type ButttonProps = {
 
 const Button = ({ className, onClick, children }: ButttonProps) => {
     return (
-        <button className={`${className} flex items-center justify-center rounded-md cursor-pointer`} onClick={onClick}>
-            {children}
-        </button>
+        <div className="bgImg rounded-md">
+            <button className={`${className} flex items-center justify-center rounded-md cursor-pointer`} onClick={onClick}>
+                {children}
+            </button>
+        </div>
     )
 }
 
