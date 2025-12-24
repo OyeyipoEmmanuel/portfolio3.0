@@ -91,7 +91,11 @@ const Home = () => {
 
                 <span className="flex space-x-3 items-center">
                     <a href="/public//Emmanuel Oyeyipo CV.pdf" download>
-                        <Button className="bg-[#2563EB] text-white px-8 py-3 space-x-1 hover:px-9 transition-all duration-400">
+                        {/* <Button className="bg-[#2563EB] text-white px-8 py-3 space-x-1 hover:px-9 transition-all duration-400">
+                            <AiOutlineDownload />
+                            <p>Resume</p>
+                        </Button> */}
+                        <Button className=" text-white px-8 py-3 space-x-1 hover:px-9 transition-all duration-400">
                             <AiOutlineDownload />
                             <p>Resume</p>
                         </Button>
