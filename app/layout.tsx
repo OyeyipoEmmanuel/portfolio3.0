@@ -17,7 +17,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     const smoother = ScrollSmoother.create({
       wrapper: "#smooth-wrapper",
       content: "#smooth-content",
-      smooth: 3,
+      smooth: 1.5,
       effects: true,
     });
 
@@ -27,9 +27,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body className={`antialiased ${switzerFont.variable}`}>
+        <Navbar />
         <div id="smooth-wrapper">
           <div id="smooth-content">
-            <Navbar />
+
             {children}
           </div>
         </div>
