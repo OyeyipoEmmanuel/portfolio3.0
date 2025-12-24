@@ -19,3 +19,20 @@
   font-style: normal;
 }
 
+.bgImg{
+  background: url('/assets/background2.webp');
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.rfm-marquee-container {
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+  mask-repeat: no-repeat;
+  mask-size: 100% 100%;
+}
+
+
