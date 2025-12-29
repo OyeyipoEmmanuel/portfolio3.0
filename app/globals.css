@@ -13,6 +13,9 @@
       font-family: var(--font-switzerFont), sans-serif;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .font-barlow {
   font-family: "Barlow", sans-serif;
