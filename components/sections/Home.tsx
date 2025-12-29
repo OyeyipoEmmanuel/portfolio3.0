@@ -51,7 +51,7 @@ const Home = () => {
     }, [hey]);
 
     return (
-        <main className="flex flex-col items-center justify-center space-y-5 md:flex-row-reverse md:justify-between">
+        <main id="home" className="flex flex-col items-center justify-center space-y-5 md:flex-row-reverse md:justify-between">
             <section className="relative">
                 <Image
                     src="/assets/images/Emmanuel Oyeyipo Profile.webp"
@@ -90,7 +90,7 @@ const Home = () => {
                 </span>
 
                 <span className="flex space-x-3 items-center">
-                    <a href="/public//Emmanuel Oyeyipo CV.pdf" download>
+                    <a href="/Emmanuel Oyeyipo CV.pdf" download>
                         {/* <Button className="bg-[#2563EB] text-white px-8 py-3 space-x-1 hover:px-9 transition-all duration-400">
                             <AiOutlineDownload />
                             <p>Resume</p>
