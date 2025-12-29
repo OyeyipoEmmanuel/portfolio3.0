@@ -26,7 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
   return (
     <html lang="en">
-      <body className={`antialiased ${switzerFont.variable}`}>
+      <body className={`antialiased ${switzerFont.variable} scroll-smooth`}>
         <Navbar />
         <div id="smooth-wrapper">
           <div id="smooth-content">
