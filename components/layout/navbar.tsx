@@ -19,22 +19,22 @@ const Navbar = () => {
         </div>
 
         <div className="flex items-center justify-between border-r border-gray-300">
-          <span className={`${hoverForSpanIconElement}`}>
+          <a href="https://linkedin.com/in/emmanuel-the-dev" target="_blank" className={`${hoverForSpanIconElement}`}>
             <FaLinkedinIn className={`${styleForIcons}`} />
-          </span>
-          <span className={`${hoverForSpanIconElement}`}>
+          </a>
+          <a href="https://x.com/emma_leo01?s=21" target="_blank" className={`${hoverForSpanIconElement}`}>
             <FaXTwitter className={`${styleForIcons}`} />
-          </span>
-          <span className={`${hoverForSpanIconElement}`}>
+          </a>
+          <a href="https://github.com/OyeyipoEmmanuel" target="_blank" className={`${hoverForSpanIconElement}`}>
             <RiGithubLine className={`${styleForIcons}`} />
-          </span>
+          </a>
         </div>
 
-        <div className="px-3">
+        <span className="px-3">
           <Button className=" text-white mx-auto text-center px-4 py-3 space-x-1 hover:px-5 transition-all duration-400">
             <p>Projects</p>
           </Button>
-        </div>
+        </span>
 
       </section>
     </nav>
