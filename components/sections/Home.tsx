@@ -54,7 +54,7 @@ const Home = () => {
         <main className="flex flex-col items-center justify-center space-y-5 md:flex-row-reverse md:justify-between">
             <section className="relative">
                 <Image
-                    src="/assets/WhatsApp Image 2025-12-23 at 18.30.15.jpeg"
+                    src="/assets/images/Emmanuel Oyeyipo Profile.webp"
                     alt="Profile"
                     width={280}
                     height={280}
