@@ -7,7 +7,7 @@ import { useState } from 'react'
 const Projects = () => {
   const [showMoreProj, setShowMoreProj] = useState<number>(4)
   return (
-    <main className="">
+    <main className="" id='projects'>
       <h1 className="text-[32px] tracking-[-.03em] md:text-3xl leading-[110%] font-semibold">Projects</h1>
 
       <section className='grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-12 w-full mt-8'>
