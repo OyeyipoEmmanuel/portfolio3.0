@@ -5,22 +5,19 @@ import { AiOutlineDownload } from "react-icons/ai";
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import gsap from "gsap";
 
-const imgTtxtDatas = [
-    {
-        label: "User-Centric",
-    },
-    {
-        label: "Performance-Driven",
-    },
-    {
-        label: "Optimization",
-    },
-]
+export const metadata = {
+  title: "Frontend Engineer Portfolio – Emmanuel Oyeyipo",
+  description:
+    "I craft dynamic, responsive, and visually compelling web applications, specializing in frontend engineering that blends performance, usability, and thoughtful design to deliver seamless experiences across all devices",
+};
+
 const heyInDiffLangArr: string[] = ["Hey", "Hola", "Salut", "Hallo", "Ciao", "Oi", "你好", "مرحباً"]
 const Home = () => {
     const [hey, setHey] = useState<string>("Hey")
 
-
+    const mainRef = useRef<HTMLElement | null>(null);
+    const imageRef = useRef<HTMLElement | null>(null);
+    const textRef = useRef<HTMLElement | null>(null);
 
     useEffect(() => {
         let idx = 0
@@ -50,12 +47,32 @@ const Home = () => {
         );
     }, [hey]);
 
+    useLayoutEffect(() => {
+        const ctx = gsap.context(() => {
+            const tl = gsap.timeline({ defaults: { ease: "power3.out" } });
+
+            tl.fromTo(
+                imageRef.current,
+                { scale: 0.8, autoAlpha: 0, y: 30 },
+                { scale: 1, autoAlpha: 1, y: 0, duration: 1.2 }
+            ).fromTo(
+                textRef.current,
+                { x: -50, autoAlpha: 0 },
+                { x: 0, autoAlpha: 1, duration: 1 },
+                "-=0.8"
+            );
+        }, mainRef);
+
+        return () => ctx.revert();
+    }, []);
+
     return (
-        <main id="home" className="flex flex-col items-center justify-center space-y-5 md:flex-row-reverse md:justify-between">
-            <section className="relative">
+        <main ref={mainRef} id="home" className="flex flex-col items-center justify-center space-y-5 md:flex-row-reverse md:justify-between">
+            <section ref={imageRef} className="relative">
                 <Image
                     src="/assets/images/Emmanuel Oyeyipo Profile.webp"
-                    alt="Profile"
+                    priority={true}
+                    alt="Emmanuel Oyeyipo - Frontend Engineer"
                     width={280}
                     height={280}
                     className="aspect-square rounded-full mx-auto overflow-hidden bg-gray-900 mt-0 w-[280px] sm:w-[300px] md:mt-10 lg:mt-0 md:w-[350px] lg:w-[450px]"
@@ -77,15 +94,15 @@ const Home = () => {
                 </div>
             </section>
 
-            <section className="md:w-[50%]">
+            <section ref={textRef} className="md:w-[50%]">
 
                 <span className="flex items-center space-x-2">
                     <h3 className="text-xl md:text-2xl text-gray-600 tracking-wider" ref={heyRef}>{hey}</h3>
                     <h3 className="text-xl md:text-2xl text-gray-600 tracking-wider">I'm</h3>
                 </span>
-                <span className="flex flex-col space-y-1">
-                    <h1 className="text-4xl tracking-tight md:text-6xl uppercase">Emmanuel Oyeyipo</h1>
-                    <h3 className="text-2xl pt-1 text-gray-600">Frontend Engineer</h3>
+                <span className="flex flex-col">
+                    <h1 className="text-[32px] tracking-tight md:text-6xl uppercase">Emmanuel Oyeyipo</h1>
+                    <h3 className="text-[26px] tracking-tighter text-gray-600">Frontend Engineer</h3>
                     <p className="text-[18px] py-4">I craft dynamic, responsive, and visually compelling web applications, specializing in frontend engineering that blends performance, usability, and thoughtful design to deliver seamless experiences across all devices. Computer science undergrad.</p>
                 </span>
 
