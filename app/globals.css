@@ -22,12 +22,13 @@ html {
   font-style: normal;
 }
 
-/* .bgImg{
-  background: url('/assets/images/background2.webp');
-  background-position: center;
-  background-repeat: repeat;
+.customBg {
+  background-image: url('/assets/images/background2.webp');
   background-size: cover;
-} */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 
 .rfm-marquee-container {
   -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);

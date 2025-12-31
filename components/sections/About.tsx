@@ -90,7 +90,7 @@ const About = () => {
                 </p>
             </section>
 
-            <section className="max-w-[30rem] mx-auto mt-12 bg-[url('/assets/images/background2.webp')] bg-cover bg-no-repeat bg-center py-6 shadow-xl rounded-xl px-12 ">
+            <section className="max-w-[30rem] mx-auto mt-12 customBg py-6 shadow-xl rounded-xl px-12 ">
                 <Marquee speed={80} pauseOnHover>
                     <div className="flex space-x-5">
                         <FaHtml5 className={classNameForIcons} />

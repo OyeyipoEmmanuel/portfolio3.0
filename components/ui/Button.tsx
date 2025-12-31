@@ -8,7 +8,7 @@ type ButttonProps = {
 
 const Button = ({ className, onClick, children }: ButttonProps) => {
     return (
-        <div className="bg-[url('/assets/images/background2.webp')] bg-cover bg-no-repeat bg-center rounded-md">
+        <div className="customBg rounded-md">
             <button className={`${className} flex items-center justify-center rounded-md cursor-pointer`} onClick={onClick}>
                 {children}
             </button>

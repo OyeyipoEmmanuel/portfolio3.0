@@ -31,7 +31,7 @@ const CallToAction = () => {
 
 
     return (
-        <main ref={mainRef} className="mt-24 bg-[url('/assets/images/background2.webp')] bg-cover bg-repeat-space bg-center rounded-md">
+        <main ref={mainRef} className="mt-24 customBg rounded-md">
             <section className='flex items-center justify-center mx-auto min-h-[300px]'>
                 <div>
                     <h1 className='text-white font-semibold tracking-tighter text-2xl text-center md:text-4xl font-barlow'>You've come a long way!</h1>
