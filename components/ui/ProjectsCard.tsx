@@ -150,7 +150,6 @@ const ProjectCard = ({ project }: { project: ProjectsDataType }) => {
                     height={600}
                     src={project.imageSrc}
                     alt={project.header + " Preview"}
-                    
                     className="inset-0 w-full h-full object-cover z-10 transition-opacity duration-1000 group-hover:opacity-0"
                 />
                 <video

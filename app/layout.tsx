@@ -7,9 +7,13 @@ export const metadata = {
   title: {
     default: "Emmanuel Oyeyipo – Frontend Engineer",
     template: "%s | Emmanuel Oyeyipo",
+
   },
   description:
     "Emmanuel Oyeyipo is a Frontend Engineer dedicated to turning complex ideas into seamless, high-performance digital experiences. With over 2 years of experience, he specialize in building scalable web applications using React, Next.js, and TypeScript.",
+  icons: {
+    icon: "/favicon.svg"
+  },
   keywords: [
     "Frontend Developer",
     "Frontend Engineer",
