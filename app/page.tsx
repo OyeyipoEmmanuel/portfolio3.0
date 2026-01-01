@@ -66,7 +66,7 @@ export default function Home() {
               "Solidity",
               "Web3",
               "Ethers.JS",
-              "Data Structure and Algorithm"
+              "Data Structure and Algorithm(DSA)"
             ],
           }),
         }}
