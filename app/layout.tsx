@@ -1,5 +1,5 @@
 import "./globals.css";
-import { switzerFont } from "./src/fontCode/myfonts";
+import { switzerFont } from "./src/lib/myfonts";
 import Navbar from "@/components/layout/navbar";
 
 // app/layout.tsx
