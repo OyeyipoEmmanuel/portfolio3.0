@@ -28,10 +28,12 @@ export const metadata = {
     "Frontend Engineer Portfolio",
     "A teenage web developer Portfolio",
     "Web Developer Portfolio",
+    "Computer Science Student Developer",
+    "Student Frontend Engineer",
   ],
   authors: [{ name: "Emmanuel Oyeyipo" }],
   creator: "Emmanuel Oyeyipo",
-  metadataBase: new URL("https://devemmanuel.tech"),
+  metadataBase: new URL("https://devemmanuel.netlify.app"),
   twitter: {
     card: "summary_large_image",
     site: "@Emma_Leo01",
@@ -39,17 +41,17 @@ export const metadata = {
     title: "Emmanuel Oyeyipo – Frontend Engineer",
     description:
       "Frontend Engineer dedicated to turning complex ideas into seamless, high-performance digital experiences.",
-    images: ["/assets/images/og-image.jpeg"],
+    images: ["https://devemmanuel.netlify.app/assets/images/og-image.jpeg"],
   },
   openGraph: {
     title: "Emmanuel Oyeyipo – Frontend Engineer",
     description:
       "Frontend Engineer dedicated to turning complex ideas into seamless, high-performance digital experiences.",
-    url: "https://devemmanuel.tech",
+    url: "https://devemmanuel.netlify.app",
     siteName: "Emmanuel Oyeyipo Portfolio",
     images: [
       {
-        url: "/assets/images/og-image.jpeg",
+        url: "https://devemmanuel.netlify.app/assets/images/og-image.jpeg",
         width: 1200,
         height: 630,
         alt: "Emmanuel Oyeyipo – Frontend Engineer",
