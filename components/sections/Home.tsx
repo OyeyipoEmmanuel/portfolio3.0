@@ -70,7 +70,7 @@ const Home = () => {
         <main ref={mainRef} id="home" className="flex flex-col items-center justify-center space-y-5 md:flex-row-reverse md:justify-between">
             <section ref={imageRef} className="relative">
                 <Image
-                    src="/assets/images/Emmanuel Oyeyipo Profile.webp"
+                    src="/assets/images/Emmanuel-Oyeyipo-Profile.webp"
                     priority={true}
                     alt="Emmanuel Oyeyipo - Frontend Engineer"
                     width={280}
