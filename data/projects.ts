@@ -32,7 +32,7 @@ export const projects: ProjectsDataType[] = [
 {
     header: "ProjHelper AI",
     text: "Built a lightweight AI tool to help teams quickly turn high-level project ideas into clear, actionable execution plans. The app breaks vague concepts into structured tasks, timelines, and responsibilities, reducing planning friction for university group projects. Initially created to solve my team’s planning bottleneck, it’s now being used by multiple groups in the course.",
-    githubLink: "https://github.com/OyeyipoEmmanuel/projhelper-ai",
+    githubLink: "https://github.com/OyeyipoEmmanuel/projhelp-ai",
     liveLink: "https://projhelper-ai.netlify.app",
     imageSrc: "/assets/images/projhelper-img-preview.webp",
     videoSrc: "/assets/videos/Projhelper-Vid-Preview.mp4",
@@ -50,7 +50,7 @@ export const projects: ProjectsDataType[] = [
 {
     header: "SpaceX - GraphQL",
     text: "Built a dark-mode web app using the public SpaceX GraphQL API to explore rocket launches and related data. The project was an opportunity to refresh my GraphQL and Apollo Client skills while designing a clean, intuitive interface for browsing launch information. Focused on seamless data fetching, interactive UI, and an engaging dark-mode experience.",
-    githubLink: "https://github.com/projhelper-ai",
+    githubLink: "https://github.com/OyeyipoEmmanuel/spacex-graphql",
     liveLink: "https://space-xmissions.netlify.app",
     imageSrc: "/assets/images/spacex-img-preview.webp",
     videoSrc: "/assets/videos/Spacex-Vid-Preview.mp4",
