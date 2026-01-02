@@ -28,10 +28,22 @@ export default function Home() {
     <div className="pt-32 max-w-3xl mx-auto px-4 md:max-w-6xl">
       <div id="smooth-wrapper">
         <div id="smooth-content">
-          <HomePg />
-          <About />
-          <Projects />
-          <Experience />
+          <section id="home">
+            <HomePg />
+          </section>
+
+          <section id="about">
+            <About />
+          </section>
+
+          <section id="project">
+            <Projects />
+          </section>
+
+          <section id="experience">
+            <Experience />
+          </section>
+          
           <CallToAction />
           <Footer />
         </div>

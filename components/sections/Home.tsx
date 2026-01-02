@@ -70,12 +70,12 @@ const Home = () => {
         <main ref={mainRef} id="home" className="flex flex-col items-center justify-center space-y-5 md:flex-row-reverse md:justify-between">
             <section ref={imageRef} className="relative">
                 <Image
-                    src="/assets/images/Emmanuel-Oyeyipo-Profile.webp"
+                    src="/assets/images/Emmanuel-Oyeyipo-HeroImg.webp"
                     priority={true}
                     alt="Emmanuel Oyeyipo - Frontend Engineer"
                     width={280}
                     height={280}
-                    className="aspect-square rounded-full mx-auto overflow-hidden bg-gray-900 mt-0 w-[280px] sm:w-[300px] md:mt-10 lg:mt-0 md:w-[350px] lg:w-[450px]"
+                    className="aspect-square rounded-full mx-auto overflow-hidden bg-gray-900 mt-0 md:mt-10 lg:mt-0 md:w-[350px] lg:w-[450px]"
                 />
                 <div className="">
                     <span className="absolute -top-3 left-6 md:left-16 md:top-4 bg-white/90 backdrop-blur text-gray-900 
