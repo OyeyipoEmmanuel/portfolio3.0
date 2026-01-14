@@ -16,11 +16,11 @@ export const experiences: ExperienceListDataType[] = [
         date: "July 2025 - August 2025",
         role: "Contract Frontend Engineer",
         company: "Omni-X",
-        desc: "Contributed to an existing React, TypeScript, and Tailwind CSS codebase, collaborating closely with backend and UI/UX teams to ship new features and deliver a smooth user experience. Improved performance through lazy loading, code splitting, and efficient data memoization to reduce unnecessary backend requests and speed up the application."
+        desc: "IMPROVED and added new FEATURES an existing React, TypeScript, and Tailwind CSS codebase, collaborating closely with backend and UI/UX teams to ship new features and deliver a smooth user experience. Improved performance through lazy loading, code splitting, and efficient data memoization to reduce unnecessary backend requests and speed up the application."
     },
     {
         date: "August 2024 - October 2025",
-        role: "Junior Frontend Developer",
+        role: "Frontend Developer",
         company: "Eleextr Tech",
         desc: "Designed and built responsive web pages using React, Tailwind CSS, and JavaScript, delivering clean, user-friendly interfaces across devices."
     },
