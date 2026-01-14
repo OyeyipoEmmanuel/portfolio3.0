@@ -4,6 +4,7 @@ import CallToAction from "@/components/sections/CallToAction";
 import Experience from "@/components/sections/Experience";
 import Footer from "@/components/sections/Footer";
 import HomePg from "@/components/sections/Home"
+import Metrics from "@/components/sections/Metrics";
 import Projects from "@/components/sections/Projects";
 import gsap from "gsap";
 import { ScrollSmoother, ScrollTrigger } from "gsap/all";
@@ -30,6 +31,10 @@ export default function Home() {
         <div id="smooth-content">
           <section id="home">
             <HomePg />
+          </section>
+          
+          <section id="metric">
+            <Metrics/>
           </section>
 
           <section id="about">
