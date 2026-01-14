@@ -3,7 +3,7 @@ import { GoHome } from "react-icons/go";
 import { FaXTwitter } from "react-icons/fa6";
 import { RiGithubLine } from "react-icons/ri";
 import { FaLinkedinIn } from "react-icons/fa";
-import Button from "../ui/Button";
+import Button from "../ui/ButtonUi";
 import { ScrollSmoother } from "gsap/all";
 
 const Navbar = () => {
