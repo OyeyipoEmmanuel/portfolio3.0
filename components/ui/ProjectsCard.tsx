@@ -2,11 +2,11 @@
 import { useRef, useState, useLayoutEffect } from "react";
 import { type ProjectsDataType } from "@/data/projects";
 import Image from "next/image";
-import Button from "./Button";
 import { BiLinkExternal } from "react-icons/bi";
 import Link from "next/link";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import ButtonUI from "./ButtonUi";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -144,6 +144,7 @@ const ProjectCard = ({ project }: { project: ProjectsDataType }) => {
                     video.pause();
                     video.currentTime = 0;
                 }}
+                //Video play For mobile view
             >
                 <Image
                     width={800}
@@ -170,7 +171,7 @@ const ProjectCard = ({ project }: { project: ProjectsDataType }) => {
                 <h1 ref={titleRef} className='text-[24px] font-semibold mb-2'>{project.header}</h1>
                 <span ref={descriptionRef} className=''>
                     <p
-                        className={`text-[#5a5a5a] text-[16px] ${clampNumber === 2 ? "line-clamp-2" : "line-clamp-8"
+                        className={`text-[#5a5a5a] text-[16px] ${clampNumber === 2 ? "line-clamp-2" : "line-clamp-none"
                             }`}
                     >
                         {project.text}
@@ -195,10 +196,10 @@ const ProjectCard = ({ project }: { project: ProjectsDataType }) => {
 
             <div ref={buttonsRef} className="flex items-center space-x-3 text-white mt-8 pt-4 border-t border-[#00000041]">
                 <Link href={project.liveLink} target="_blank">
-                    <Button className="px-10 md:px-14 py-2 flex space-x-1 hover:md:px-15 transition-all duration-300">
+                    <ButtonUI className="px-10 md:px-14 py-2 flex space-x-1 hover:md:px-15 transition-all duration-300">
                         <p className="tracking-wide md:text-lg">Visit</p>
                         <BiLinkExternal className="text-xs" />
-                    </Button>
+                    </ButtonUI>
                 </Link>
                 <Link href={project.githubLink} target="_blank">
                     <button className="cursor-pointer px-4 text-black group relative overflow-hidden py-2 border-2 h-fit border-black text-sm font-bold uppercase hover:text-white tracking-wide before:absolute before:inset-0 before:w-full before:h-full before:bg-black before:translate-y-[100%] hover:before:translate-y-0 before:transition-transform before:duration-500 flex ">

@@ -1,9 +1,9 @@
 'use client'
 import Image from "next/image";
-import Button from "../ui/Button"
 import { AiOutlineDownload } from "react-icons/ai";
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import gsap from "gsap";
+import ButtonUI from "../ui/ButtonUi";
 
 export const metadata = {
   title: "Frontend Engineer Portfolio – Emmanuel Oyeyipo",
@@ -112,10 +112,10 @@ const Home = () => {
                             <AiOutlineDownload />
                             <p>Resume</p>
                         </Button> */}
-                        <Button className=" text-white px-8 py-3 space-x-1 hover:px-9 transition-all duration-400">
+                        <ButtonUI className=" text-white px-8 py-3 space-x-1 hover:px-9 transition-all duration-400">
                             <AiOutlineDownload />
                             <p>Resume</p>
-                        </Button>
+                        </ButtonUI>
                     </a>
                     <span className="bg-[#E1F9DC] flex items-center justify-center w-fit px-6 py-3 rounded-full space-x-2">
                         <div className="w-2 h-2 bg-[#178D00] animate-pulse [animation-duration:1s] rounded-full "></div>
