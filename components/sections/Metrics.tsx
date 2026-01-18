@@ -27,7 +27,7 @@ const Metrics = () => {
     const quoteRef = useRef<HTMLHeadingElement | null>(null);
 
     const plugin = useRef(
-        Autoplay({ delay: 4000, stopOnInteraction: true })
+        Autoplay({ delay: 4000, stopOnInteraction: false })
     )
 
     useEffect(() => {
