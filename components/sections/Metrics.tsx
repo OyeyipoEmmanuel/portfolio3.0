@@ -79,8 +79,8 @@ const Metrics = () => {
                     ))}
                 </CarouselContent>
 
-                <CarouselPrevious />
-                <CarouselNext />
+                <CarouselPrevious className='hidden md:flex'/>
+                <CarouselNext className='hidden md:flex'/>
             </Carousel>
 
             <div className="max-w-3xl mx-auto py-8">
