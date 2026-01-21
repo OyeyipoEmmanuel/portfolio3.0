@@ -1,11 +1,13 @@
 'use client'
 import About from "@/components/sections/About";
 import CallToAction from "@/components/sections/CallToAction";
+import Education from "@/components/sections/Education";
 import Experience from "@/components/sections/Experience";
 import Footer from "@/components/sections/Footer";
 import HomePg from "@/components/sections/Home"
 import Metrics from "@/components/sections/Metrics";
 import Projects from "@/components/sections/Projects";
+import Volunteering from "@/components/sections/Volunteering";
 import gsap from "gsap";
 import { ScrollSmoother, ScrollTrigger } from "gsap/all";
 import { useLayoutEffect } from "react";
@@ -45,8 +47,16 @@ export default function Home() {
             <Projects />
           </section>
 
+          <section id="education">
+            <Education />
+          </section>
+
           <section id="experience">
             <Experience />
+          </section>
+
+          <section id="volunteer">
+            <Volunteering />
           </section>
           
           <CallToAction />
