@@ -1,6 +1,6 @@
 'use client'
 import { experiences } from "@/data/experience"
-import { useLayoutEffect, useRef } from "react"
+import { useRef } from "react"
 import { LuBriefcase } from "react-icons/lu";
 import gsap from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
@@ -12,7 +12,7 @@ const Experience = () => {
   const mainRef = useRef<HTMLElement | null>(null);
   const titleRef = useRef<HTMLHeadingElement | null>(null);
   const gridRef = useRef<HTMLElement | null>(null);
-  const ctaRef = useRef<HTMLDivElement | null>(null);
+  // const ctaRef = useRef<HTMLDivElement | null>(null);
 
   // useLayoutEffect(() => {
   //   const ctx = gsap.context(() => {
