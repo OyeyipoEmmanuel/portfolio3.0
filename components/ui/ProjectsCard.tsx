@@ -203,7 +203,7 @@ const ProjectCard = ({ project }: { project: ProjectsDataType }) => {
                 </Link>
                 <Link href={project.githubLink} target="_blank">
                     <button className="cursor-pointer px-4 text-black group relative overflow-hidden py-2 border-2 h-fit border-black text-sm font-bold uppercase hover:text-white tracking-wide before:absolute before:inset-0 before:w-full before:h-full before:bg-black before:translate-y-[100%] hover:before:translate-y-0 before:transition-transform before:duration-500 flex ">
-                        <p className="relative group-hover:text-white z-10">Github Repo</p>
+                        <p className="relative group-hover:text-white z-10">Github</p>
                         <BiLinkExternal className="relative group-hover:text-white z-10" />
                     </button>
                 </Link>
