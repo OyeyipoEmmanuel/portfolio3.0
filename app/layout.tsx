@@ -65,6 +65,15 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+       <script async src="https://www.googletagmanager.com/gtag/js?id=G-QX7M750GSL"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments)}
+          gtag('js', new Date());
+
+          gtag('config', 'G-QX7M750GSL');
+        </script>
+        
       <body className={`antialiased ${switzerFont.variable} scroll-smooth`}>
         <Navbar />
         <div id="smooth-wrapper">
@@ -73,14 +82,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
         </div>
 
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-QX7M750GSL"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){window.dataLayer.push(arguments)}
-          gtag('js', new Date());
-
-          gtag('config', 'G-QX7M750GSL');
-        </script>
+       
 
       </body>
 
