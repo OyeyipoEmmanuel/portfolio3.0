@@ -72,7 +72,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             {children}
           </div>
         </div>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-QX7M750GSL"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments)}
+          gtag('js', new Date());
+
+          gtag('config', 'G-QX7M750GSL');
+        </script>
+
       </body>
+
+
     </html>
   );
 }
