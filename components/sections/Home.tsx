@@ -107,7 +107,7 @@ const Home = () => {
                 </span>
 
                 <span className="flex space-x-3 items-center">
-                    <a href="/Emmanuel Oyeyipo CV.pdf" download>
+                    <a href="/Emmanuel OyeyipoCV.pdf" download>
                         {/* <Button className="bg-[#2563EB] text-white px-8 py-3 space-x-1 hover:px-9 transition-all duration-400">
                             <AiOutlineDownload />
                             <p>Resume</p>
