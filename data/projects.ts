@@ -15,7 +15,8 @@ export const projects: ProjectsDataType[] = [
     header: "Building GitPulse",
     text: "Unlock actionable insights from your repositories with our advanced analytics platform built for modern engineering teams.",
     githubLink: "https://github.com/OyeyipoEmmanuel/gitpulse",
-    liveLink: "https://gitpulsee.netlify.app",
+    // liveLink: "https://gitpulsee.netlify.app", // netlify link
+    liveLink: "https://gitpulsee.vercel.app", // vercel link
     imageSrc: "/assets/images/gitpulse.webp",
     videoSrc: null,
     stack: [
@@ -48,7 +49,8 @@ export const projects: ProjectsDataType[] = [
     header: "Focus AI",
     text: "An AI-powered, dashboard-style productivity web application that combines task management and smart scheduling. Built with Firebase for secure authentication and real-time data, the app enables users to sign up, manage todos, and schedule events seamlessly. It leverages AI to analyze tasks, priorities, and time patterns, delivering intelligent recommendations on what to work on and when. Designed with a strong focus on performance, scalability, and a clean, intuitive user interface.",
     githubLink: "https://github.com/OyeyipoEmmanuel/focus-ai",
-    liveLink: "https://focuss-ai.netlify.app",
+    // liveLink: "https://focuss-ai.netlify.app", //  netlify link
+    liveLink: "https://focuss-ai.vercel.app", //  vercel link
     imageSrc: "/assets/images/focus-ai-image-preview.webp",
     videoSrc: "/assets/videos/Focus-Ai-Vid-Preview.mp4",
     stack: [
