@@ -29,6 +29,22 @@ export const projects: ProjectsDataType[] = [
     ],
   },
   {
+    header: "QueryTube",
+    text: "Stop searching. Start watching. Why scroll through a sea of thumbnails when you can just describe the feeling? We’ve replaced the search bar with a conversation, turning your prompts into a front-row seat. Experience the next generation of video discovery—where the answer isn't a link, it's the movie.",
+    githubLink: "https://github.com/OyeyipoEmmanuel/querytube",
+    liveLink: "https://querytube.devemmanuel.tech",
+    imageSrc: "/assets/images/querytube-img-preview.webp",
+    videoSrc: "/assets/videos/querytube-vid-preview.mp4",
+    stack: [
+      "Typescript",
+      "ExpressJS",
+      "React",
+      "TailwindCSS",
+      "YouTubeAPI",
+      "GroqAI API",
+    ],
+  },
+  {
     header: "Focus AI",
     text: "An AI-powered, dashboard-style productivity web application that combines task management and smart scheduling. Built with Firebase for secure authentication and real-time data, the app enables users to sign up, manage todos, and schedule events seamlessly. It leverages AI to analyze tasks, priorities, and time patterns, delivering intelligent recommendations on what to work on and when. Designed with a strong focus on performance, scalability, and a clean, intuitive user interface.",
     githubLink: "https://github.com/OyeyipoEmmanuel/focus-ai",
