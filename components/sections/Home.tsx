@@ -6,9 +6,9 @@ import gsap from "gsap";
 import ButtonUI from "../ui/ButtonUi";
 
 export const metadata = {
-  title: "Frontend Engineer Portfolio – Emmanuel Oyeyipo",
-  description:
-    "I craft dynamic, responsive, and visually compelling web applications, specializing in frontend engineering that blends performance, usability, and thoughtful design to deliver seamless experiences across all devices",
+    title: "Frontend Engineer Portfolio – Emmanuel Oyeyipo",
+    description:
+        "I craft dynamic, responsive, and visually compelling web applications, specializing in frontend engineering that blends performance, usability, and thoughtful design to deliver seamless experiences across all devices",
 };
 
 const heyInDiffLangArr: string[] = ["Hey", "Hola", "Salut", "Hallo", "Ciao", "Oi", "你好", "مرحباً"]
@@ -34,7 +34,7 @@ const Home = () => {
         return () => clearInterval(interval);
 
     }, [])
-    
+
     const heyRef = useRef<HTMLHeadingElement | null>(null);
 
     useLayoutEffect(() => {
@@ -97,17 +97,17 @@ const Home = () => {
             <section ref={textRef} className="md:w-[50%]">
 
                 <span className="flex items-center space-x-2">
-                    <h3 className="text-xl md:text-2xl text-gray-600 tracking-wider" ref={heyRef}>{hey}</h3>
-                    <h3 className="text-xl md:text-2xl text-gray-600 tracking-wider">I'm</h3>
+                    <p className="text-xl md:text-2xl text-gray-600 tracking-wider" ref={heyRef}>{hey}</p>
+                    <p className="text-xl md:text-2xl text-gray-600 tracking-wider">I'm</p>
                 </span>
                 <span className="flex flex-col">
                     <h1 className="text-[32px] tracking-tight md:text-6xl uppercase">Emmanuel Oyeyipo</h1>
-                    <h3 className="text-[26px] tracking-tighter text-gray-600">Frontend Engineer</h3>
+                    <p className="text-[26px] tracking-tighter text-gray-600">Frontend Engineer</p>
                     <p className="text-[18px] py-4">I craft dynamic, responsive, and visually compelling web applications, specializing in frontend engineering that blends performance, usability, and thoughtful design to deliver seamless experiences across all devices. Computer science undergrad.</p>
                 </span>
 
                 <span className="flex space-x-3 items-center">
-                    <a href="/Emmanuel OyeyipoCV.pdf" download>
+                    <a href="/Emmanuel OyeyipoCV.pdf" download aria-label="Emmanuel CV">
                         {/* <Button className="bg-[#2563EB] text-white px-8 py-3 space-x-1 hover:px-9 transition-all duration-400">
                             <AiOutlineDownload />
                             <p>Resume</p>
