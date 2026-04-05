@@ -12,19 +12,18 @@ const Footer = () => {
                 <h1 className='tracking-tighter text-gray-600'>&copy; devemmanuel. All rights reserved</h1>
 
                 <div className="flex items-center justify-center space-x-2 mt-2 border-gray-300">
-                    <a href='mailto:deleoth702@gmail.com?subject=From%20your%20portfolio' target="_blank" className={`${hoverForSpanIconElement}`}>
-                        <SiGmail className={`${styleForIcons}`} />
+                    <a href='mailto:deleoth702@gmail.com?subject=From%20your%20portfolio' target="_blank" aria-label="Send Emmanuel an email" className={`${hoverForSpanIconElement}`}>
+                        <SiGmail className={`${styleForIcons}`} aria-hidden="true" />
                     </a>
-                    <a href="https://linkedin.com/in/emmanuel-the-dev" target="_blank" className={`${hoverForSpanIconElement}`}>
-                        <FaLinkedinIn className={`${styleForIcons}`} />
+                    <a href="https://linkedin.com/in/emmanuel-the-dev" target="_blank" aria-label="Emmanuel's LinkedIn profile" className={`${hoverForSpanIconElement}`}>
+                        <FaLinkedinIn className={`${styleForIcons}`} aria-hidden="true" />
                     </a>
-                    <a href="https://x.com/emma_leo01?s=21" target="_blank" className={`${hoverForSpanIconElement}`}>
-                        <FaXTwitter className={`${styleForIcons}`} />
+                    <a href="https://x.com/emma_leo01?s=21" target="_blank" aria-label="Emmanuel's X (Twitter) profile" className={`${hoverForSpanIconElement}`}>
+                        <FaXTwitter className={`${styleForIcons}`} aria-hidden="true" />
                     </a>
-                    <a href="https://github.com/OyeyipoEmmanuel" target="_blank" className={`${hoverForSpanIconElement}`}>
-                        <RiGithubLine className={`${styleForIcons}`} />
+                    <a href="https://github.com/OyeyipoEmmanuel" target="_blank" aria-label="Emmanuel's GitHub profile" className={`${hoverForSpanIconElement}`}>
+                        <RiGithubLine className={`${styleForIcons}`} aria-hidden="true" />
                     </a>
-
                 </div>
             </div>
         </footer>
