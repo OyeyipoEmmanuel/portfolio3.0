@@ -165,7 +165,7 @@ const ProjectCard = ({ project }: { project: ProjectsDataType }) => {
                 />}
             </div>
 
-           <div className={`flex justify-end ${project.videoSrc == null && " invisible"}`}>
+            <div className={`flex justify-end ${project.videoSrc == null && " invisible"}`}>
                 <p className="text-black font-light text-[15px] md:hidden">Tap for video preview</p>
                 <p className="text-black font-light text-[15px] hidden md:block">Hover for video preview</p>
             </div>
@@ -198,13 +198,13 @@ const ProjectCard = ({ project }: { project: ProjectsDataType }) => {
             </div>
 
             <div ref={buttonsRef} className="flex items-center space-x-3 text-white pt-4 border-t border-[#00000041]">
-                {project.liveLink !== "" && <Link href={project.liveLink} target="_blank">
+                {project.liveLink !== "" && <Link href={project.liveLink} target="_blank" aria-label={`${project.header}`}>
                     <ButtonUI className="px-10 md:px-10 py-2 flex space-x-1 hover:md:px-15 transition-all duration-300">
                         <p className="tracking-wide md:text-lg">Visit</p>
                         <BiLinkExternal className="text-xs" />
                     </ButtonUI>
                 </Link>}
-                <Link href={project.githubLink} target="_blank">
+                <Link href={project.githubLink} target="_blank" aria-label={`${project.header}`}>
                     <button className="cursor-pointer px-4 text-black group relative overflow-hidden py-[7px] border-2 h-fit border-black text-sm font-bold uppercase hover:text-white tracking-wide before:absolute before:inset-0 before:w-full before:h-full before:bg-black before:translate-y-[100%] hover:before:translate-y-0 before:transition-transform before:duration-500 flex">
                         <p className="relative group-hover:text-white z-10">Github</p>
                         <BiLinkExternal className="relative group-hover:text-white z-10" />
