@@ -8,11 +8,11 @@ const Volunteering = () => {
     return (
         <main className='my-12 pb-12 border-b border-[#00000015]'>
             <section className='flex items-start space-x-2'>
-                <h1 className="text-[32px] tracking-[-.03em] md:text-3xl leading-[110%] font-semibold">
+                <h2 className="text-[32px] tracking-[-.03em] md:text-3xl leading-[110%] font-semibold">
                     Volunteering
-                </h1>
+                </h2>
                 <span>
-                    <MdOutlineVolunteerActivism className='text-3xl rotate-12' />
+                    <MdOutlineVolunteerActivism className='text-3xl rotate-12'aria-hidden="true" />
                 </span>
             </section>
 
@@ -24,8 +24,8 @@ const Volunteering = () => {
                         </div>
                         <div className='flex flex-col space-y-4 w-[90%] md:w-[60%]'>
                             <span className='flex flex-col space-y-1'>
-                                <h1 className='text-xl tracking-tighter font-semibold'>{each.role}</h1>
-                                <h3 className='text-[#4287F6] font-light text-lg'>{each.company}</h3>
+                                <h3 className='text-xl tracking-tighter font-semibold'>{each.role}</h3>
+                                <p className='text-[#4287F6] font-light text-lg'>{each.company}</p>
                             </span>
 
                             <p className='text-gray-500 md:hidden'>{each.date}</p>
