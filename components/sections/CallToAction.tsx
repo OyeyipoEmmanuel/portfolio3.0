@@ -34,15 +34,15 @@ const CallToAction = () => {
         <main ref={mainRef} className="mt-24 customBg rounded-md">
             <section className='flex items-center justify-center mx-auto min-h-[300px]'>
                 <div>
-                    <h1 className='text-white font-semibold tracking-tighter text-2xl text-center md:text-4xl font-barlow'>You've come a long way!</h1>
-                    <h3 className='text-white/80 text-center mt-2 text-xl tracking-tight font-barlow'>Like what you see?</h3>
+                    <h2 className='text-white font-semibold tracking-tighter text-2xl text-center md:text-4xl font-barlow'>You've come a long way!</h2>
+                    <p className='text-white/80 text-center mt-2 text-xl tracking-tight font-barlow'>Like what you see?</p>
 
                     <div className='flex flex-col md:flex-row items-center space-y-4 w-full md:space-y-0 md:space-x-6 justify-center mt-16'>
 
                         <a href='mailto:deleoth702@gmail.com?subject=From%20your%20portfolio' target="_blank">
                             <button className='flex items-center space-x-2 text-lg bg-white px-12 md:px-5 py-2 hover:scale-105 duration-300 transition-all cursor-pointer'>
                                 <p>Send me an</p>
-                                <SiGmail />
+                                <SiGmail aria-hidden="true"/>
                             </button>
                         </a>
 
@@ -50,7 +50,7 @@ const CallToAction = () => {
                         >
                             <button className='flex items-center space-x-2 text-lg bg-white px-13 md:px-5 py-2 hover:scale-105 duration-300 transition-all cursor-pointer'>
                                 <p>Text me on</p>
-                                <IoLogoWhatsapp className='text-green-700' />
+                                <IoLogoWhatsapp className='text-green-700' aria-hidden="true"/>
                             </button>
                         </a>
 
