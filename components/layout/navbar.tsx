@@ -37,13 +37,13 @@ const Navbar = () => {
         </div>
 
         <div className="flex items-center justify-between border-r border-gray-300">
-          <a href="https://linkedin.com/in/emmanuel-the-dev" target="_blank" rel="noopener noreferrer" className={`${hoverForSpanIconElement}`}>
+          <a href="https://linkedin.com/in/emmanuel-the-dev" target="_blank" rel="noopener noreferrer" className={`${hoverForSpanIconElement}`} aria-label="Emmanuel Linkedin Profile">
             <FaLinkedinIn className={`${styleForIcons}`} />
           </a>
-          <a href="https://x.com/emma_leo01?s=21" target="_blank" rel="noopener noreferrer" className={`${hoverForSpanIconElement}`}>
+          <a href="https://x.com/emma_leo01?s=21" target="_blank" rel="noopener noreferrer" className={`${hoverForSpanIconElement}`} aria-label="Emmanuel X profile">
             <FaXTwitter className={`${styleForIcons}`} />
           </a>
-          <a href="https://github.com/OyeyipoEmmanuel" target="_blank" rel="noopener noreferrer" className={`${hoverForSpanIconElement}`}>
+          <a href="https://github.com/OyeyipoEmmanuel" target="_blank" rel="noopener noreferrer" className={`${hoverForSpanIconElement}`} aria-label="Emmanuel Github profile">
             <RiGithubLine className={`${styleForIcons}`} />
           </a>
         </div>
