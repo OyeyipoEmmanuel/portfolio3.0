@@ -1,6 +1,7 @@
 import "./globals.css";
 import { switzerFont } from "./src/lib/myfonts";
 import Navbar from "@/components/layout/navbar";
+import { Analytics } from "@vercel/analytics/next"
 
 // app/layout.tsx
 export const metadata = {
@@ -81,6 +82,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             {children}
           </div>
         </div>
+        <Analytics/>
 
        
 
