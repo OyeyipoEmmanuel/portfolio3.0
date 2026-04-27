@@ -20,7 +20,7 @@ export const experiences: ExperienceListDataType[] = [
     },
     {
         date: "August 2024 - October 2025",
-        role: "Frontend Developer",
+        role: "Frontend Engineer",
         company: "Eleextr Tech",
         desc: "Designed and built responsive web pages using React, Tailwind CSS, and JavaScript, delivering clean, user-friendly interfaces across devices."
     },
