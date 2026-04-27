@@ -12,12 +12,30 @@ export type ProjectsDataType = {
 
 export const projects: ProjectsDataType[] = [
   {
+    header: "ScanA11y v0.1.0",
+    text: "A zero-config CLI tool that scans your HTML, JSX, TSX, and Vue files for accessibility violations — showing exactly which files need fixing and on which line. Like git status, but for accessibility.",
+    githubLink: "",
+    // liveLink: "https://gitpulsee.netlify.app", // netlify link
+    liveLink: "https://npmjs.com/package/scana11y", // vercel link
+    imageSrc: "/assets/images/scana11y-img-preview.png",
+    videoSrc: null,
+    stack: [
+      "Javascript",
+      "Node.js",
+      "axe-core",
+      "jsdom",
+      "commander",
+      "glob",
+      "chalk",
+    ],
+  },
+  {
     header: "Building GitPulse",
     text: "Unlock actionable insights from your repositories with our advanced analytics platform built for modern engineering teams.",
     githubLink: "https://github.com/OyeyipoEmmanuel/gitpulse",
     // liveLink: "https://gitpulsee.netlify.app", // netlify link
     liveLink: "https://gitpulsee.vercel.app", // vercel link
-    imageSrc: "/assets/images/gitpulse.webp",
+    imageSrc: "/assets/images/gitpulse.png",
     videoSrc: null,
     stack: [
       "Typescript",
