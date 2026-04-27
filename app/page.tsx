@@ -1,5 +1,6 @@
 'use client'
 import About from "@/components/sections/About";
+import Blog from "@/components/sections/Blog";
 import CallToAction from "@/components/sections/CallToAction";
 import Education from "@/components/sections/Education";
 import Experience from "@/components/sections/Experience";
@@ -57,6 +58,10 @@ export default function Home() {
 
           <section id="volunteer">
             <Volunteering />
+          </section>
+
+          <section id="blog">
+            <Blog />
           </section>
           
           <CallToAction />
