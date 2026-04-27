@@ -1,6 +1,6 @@
 export const volunteering = [
     {
-        role: "Development Team Member",
+        role: "Frontend Engineer(Development Team)",
         company: "GDG on Campus UNILAG",
         date: "Jan 2026 - Present",
         logo:"/assets/images/gdglogo.avif"
