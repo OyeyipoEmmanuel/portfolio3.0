@@ -6,7 +6,7 @@ export const education = [
     },
     {
         degree: "HatchDev 3.1 SWE Training",
-        school: "NitHub",
+        school: "NitHub X Moniepoint",
         date: "May 2025 - Nov 2025"
     },
     {
