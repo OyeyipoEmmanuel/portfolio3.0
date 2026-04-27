@@ -204,12 +204,12 @@ const ProjectCard = ({ project }: { project: ProjectsDataType }) => {
                         <BiLinkExternal className="text-xs" />
                     </ButtonUI>
                 </Link>}
-                <Link href={project.githubLink} target="_blank" aria-label={`${project.header}`}>
+                {project.githubLink !== "" && (<Link href={project.githubLink} target="_blank" aria-label={`${project.header}`}>
                     <button className="cursor-pointer px-4 text-black group relative overflow-hidden py-[7px] border-2 h-fit border-black text-sm font-bold uppercase hover:text-white tracking-wide before:absolute before:inset-0 before:w-full before:h-full before:bg-black before:translate-y-[100%] hover:before:translate-y-0 before:transition-transform before:duration-500 flex">
                         <p className="relative group-hover:text-white z-10">Github</p>
                         <BiLinkExternal className="relative group-hover:text-white z-10" />
                     </button>
-                </Link>
+                </Link>)}
             </div>
 
         </div>
