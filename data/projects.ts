@@ -15,8 +15,8 @@ export const projects: ProjectsDataType[] = [
     header: "ScanA11y v0.1.0",
     text: "A zero-config CLI tool that scans your HTML, JSX, TSX, and Vue files for accessibility violations — showing exactly which files need fixing and on which line. Like git status, but for accessibility.",
     githubLink: "",
-    // liveLink: "https://gitpulsee.netlify.app", // netlify link
-    liveLink: "https://npmjs.com/package/scana11y", // vercel link
+    liveLink: "https://scana11y.vercel.app", // netlify link
+    // liveLink: "https://npmjs.com/package/scana11y", // vercel link
     imageSrc: "/assets/images/scana11y-img-preview.png",
     videoSrc: null,
     stack: [
